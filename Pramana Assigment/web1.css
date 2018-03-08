@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+    color: white;
+}
+
+.nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.navli{
+    float: left;
+    padding-left: 225;
+    padding-right:10;
+}
+
+.navlia{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navlia:hover {
+    background-color: #111;
+}
+
+li{
+    color: white;
+}
+
+footer { 
+		color: white;
+		text-align: center;
+		margin: 50;
+
+	}
